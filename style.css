@@ -1,0 +1,132 @@
+    html,body {
+        padding: 0%;
+        margin: 0%;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .container {
+    
+        height: 60%;
+        width:40%;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0,0.5);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+
+    .bg {
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 50%;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .name {
+        text-align: center;
+        z-index: 1;
+        margin-top: 10px;
+        padding: 10px 10px ;
+        border-bottom: 2px solid #0000002a;
+    }
+
+
+    .score {
+        font-size: 50px;
+    }
+
+    .playingtobox {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    #playingto {
+        margin-left: 10px;
+        height: 25px;
+        width: 50px;
+        border: 1px solid #0000006b;
+        border-radius: 15px;
+    }
+
+
+
+    .buttongroup {
+        display: flex;
+        justify-content: space-around;
+        margin-top: auto;
+        background-color: antiquewhite;
+
+    }
+
+    button {
+        height: 60px;
+        width: 100%;
+    }
+
+    .player1 {
+        background-color: #66e885;
+        color: white;
+        font-size: 15px;
+        border-bottom-left-radius: 10px;
+        border: 0;
+        transition: background-color 0.2s ease-in-out;
+
+    }
+    .player1:hover{
+        background-color: #66e884 ;
+    }
+    .player1:active {
+        background-color: #1edf4b;
+
+    }
+    .player2 {
+        background-color: #48cae4;
+        color: white;
+        font-size: 15px;
+        border: 0px solid #000;
+        transition: background-color 0.2s ease-in-out;
+    }
+    .player2:hover {
+        background-color:#48cae490 ;
+    }
+    .player2:active {
+        background-color: #13a5c3;
+
+    }
+
+    .player3 {
+        background-color: #ed3838;
+        color: white;
+        font-size: 15px;
+        border-bottom-right-radius: 10px;
+        border: 0px solid #000;
+    }
+    .player3:hover{
+        transition: background-color 0.2s ease-in-out;
+        background-color:#ed383890 ;
+    }
+    .player3:active {
+        background-color: #b90e0e;
+
+    }
+    
+
+
+
+
+
+    
+
+
