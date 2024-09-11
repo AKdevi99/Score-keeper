@@ -12,18 +12,18 @@ const reset = document.querySelector(".reset");
 
 player1.addEventListener("click",function()
 {
-    console.log(score);
+    score[0]+=1;
     scorediv.innerHTML = `<b>${score[0]} to ${score[1]}</b>`;
 });
 
 player2.addEventListener("click", function() {
-    console.log(score);
+    score[1] += 1;
     scorediv.innerHTML = `<b>${score[0]} to ${score[1]}</b>`
 }) ;
 
 reset.addEventListener("click",function()
 {
-    console.log(score);
+    score[0]=score[1]=0;
     scorediv.innerHTML = `<b>${score[0]} to ${score[1]}</b>`
 }) ;
 
